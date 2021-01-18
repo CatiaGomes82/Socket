@@ -1,0 +1,47 @@
+{
+  "name": "lighthouse-audit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codehouse Front End",
+  "main": "gulpfile.js",
+  "scripts": {
+    "client": "cd ../client && npm start",
+    "server": "nodemon --ignore sessions/ server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chrome-launcher": "^0.13.4",
+    "dotenv": "^8.2.0",
+    "express": "4.17.1",
+    "express-session": "^1.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "node-cache": "^5.0.2",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "0.12.7",
+    "sequelize": "^5.19.6",
+    "sequelize-simple-cache": "^1.0.4",
+    "session-file-store": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.0",
+    "tedious": "^6.6.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/**/*",
+      "client/*",
+      "sessions/*"
+    ],
+    "delay": "2500"
+  },
+  "author": "Codehousegroup Ltd"
+}

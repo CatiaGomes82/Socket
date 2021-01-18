@@ -1,0 +1,15 @@
+[
+    {
+        "url": "https://www.howdens.com/",
+        "name": "www_howdens_com_",
+        "file": "www_howdens_com_.report.json",
+        "score": "0.64",
+        "detail": {
+            "performance": 0.14,
+            "accessibility": 0.75,
+            "best-practices": 0.79,
+            "seo": 0.8,
+            "pwa": 0.74
+        }
+    }
+]

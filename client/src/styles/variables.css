@@ -1,0 +1,32 @@
+:root {
+   --color-bg-grey: #f6f6f7;
+   --color-grey-light: #e3e3e7;
+   --color-grey: #252525;
+   --color-red: #b61928;
+
+   --font-poppins: Poppins, sans-serif;
+
+
+
+   --red: #b61928;
+   --light-red: #f0d8db;
+ 
+   --green: #008181;
+   --light-green: #e0f3f1;
+ 
+   --orange: #e87e04;
+   --light-orange: #fff1e0;
+ 
+   --blue: #2296f3;
+   --light-blue: #eaf5fd;
+ 
+   --grey: #909599;
+   --color-grey-light: #e3e3e7;
+   --grey-dark: #333853;
+ 
+   --light-black: #16191c;
+   --black: #0f1012;
+ 
+   --white-smoke: #f5f5f5;
+ 
+}

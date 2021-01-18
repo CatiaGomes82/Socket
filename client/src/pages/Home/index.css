@@ -1,0 +1,9 @@
+.welcome { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 450px; }
+.welcome__container { background: #ffffff; padding: 40px 50px; border: 1px solid var(--color-light-grey); border-radius: 4px; }
+
+.welcome__logo { max-width: 150px; margin: 0 auto 30px; display: block; }
+.welcome__title { text-align: center; margin: 15px 0 30px; }
+.welcome__sub-title { margin-bottom: 15px; text-align: center; }
+.welcome__sep { position: relative; text-align: center; margin: 20px 0; } 
+.welcome__sep::before { content:'-'; height: 1px; width: 100%; background: var(--color-grey-light); display: block; position: absolute; left:0; top:50% }
+.welcome__sep-text { position: relative; padding: 0 10px; background: #ffffff; font-size: 2.2rem; line-height: 2.6rem; text-align: center; margin: 15px 0 20px; font-weight: 600; }

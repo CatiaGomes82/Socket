@@ -1,0 +1,96 @@
+/* global
+============================ */
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @font-face { font-family: ExampleFont; src: url('/path/to/fonts/examplefont.woff') format('woff'), url('/path/to/fonts/examplefont.eot') format('eot'); font-weight: 400; font-style: normal; font-display: fallback; } example only - note the use of font-display */
+
+html { font-size: 62.5%; }
+body { font-family: var(--font-poppins); font-size: 1.6rem; margin: 0; line-height: 1.8rem; background: var(--color-bg-grey); scroll-behavior: smooth; color: var(--color-grey); }
+
+a { position: relative; transition: color var(--transition-speed) ease-in-out, background-color var(--transition-speed) ease-in-out; }
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus { color: var(--color-red); text-decoration: none; }
+a:hover,
+a:focus,
+a:active { outline: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: var(--font-poppins); font-weight: 700; margin: 0; }
+
+h1 { font-size: 3.4rem; line-height: 3.8rem; }
+h2 { font-size: 2.9rem; line-height: 3rem; }
+h3 { font-size: 2.2rem; line-height: 2.6rem; }
+h4 { font-size: 1.8rem; line-height: 2.4rem; }
+h5 { font-size: 1.5rem; line-height: 1.8rem; }
+
+ul { list-style: none; padding: 0; margin: 0; }
+img { max-width: 100%; height: auto; }
+.wrapper { margin: 0 auto; width: 1000px; padding: 0 20px; max-width: 100%; }
+
+p { margin: 0; }
+
+input { -webkit-appearance: none; }
+
+button { border-radius: 0; background: none; border: none; padding: 0; }
+input.btn,
+a.btn,
+.btn { display: inline-block; text-decoration: none; line-height: 1.2em; border: 1px solid var(--color-grey-light); color: var(--grey-dark); background: #ffffff; font-family: var(--poppins-medium-font); font-size: 1.4rem; border-radius: 7px; padding: 12px 18px 11px; text-transform: uppercase; opacity: 1; transition: .3s; }
+.btn:hover { background: none; }
+.btn--red[disabled],
+.btn--red { background: var(--color-red); border-color: var(--red); color: #ffffff; }
+.btn--green[disabled],
+.btn--green { border-color: var(--green); background: var(--green); color: #ffffff; }
+.btn--grey[disabled],
+.btn--grey { border-color: var(--grey-dark); background: var(--grey-dark); color: #ffffff; }
+.btn--color-grey-light[disabled],
+.btn--color-grey-light { border-color: var(--color-grey-light); background: var(--color-grey-light); color: var(--grey); }
+.btn--grey:hover,
+.btn--grey:focus { border-color: var(--grey-dark); color: var(--grey-dark); }
+.btn--green:hover,
+.btn--green:focus { border-color: var(--green); color: var(--green); }
+.btn--green-light:hover,
+.btn--green-light:focus { border-color: #d8ebe9; background: #d8ebe9; color: var(--green); }
+.btn--color-grey-light:hover,
+.btn--color-grey-light:focus { color: var(--grey); background: #ffffff; }
+.btn--green-light[disabled],
+.btn--green-light { border-color: var(--light-green); background: var(--light-green); color: var(--green); }
+.btn[disabled] { opacity: 0.3; }
+
+/* forms */
+.form-field { margin-bottom: 30px; position: relative; }
+label { color: var(--grey); font-size: 1.5rem; margin-bottom: 5px; display: block; }
+input[type="email"],
+input[type="text"] { font-size: 1.4rem; line-height: 1.8rem; color: var(--black); width: 100%; padding: 11px; height: initial; max-height: 40px; background: #ffffff; border-radius: 5px; border: 1px solid var(--color-grey-light); font-family: var(--font-poppins); font-weight: 400; }
+.err { color: #b61928; font-size: 1.2rem; line-height: 1.6rem; position: absolute; top: 100%; left: 0; margin-top: 2px; }
+.section-title { font-size: 19px; font-family: var(--poppins-semibold-font); padding-bottom: 13px; border-bottom: 1px solid var(--color-grey-light); margin: 15px 0 20px; }
+
+
+/* custom */
+.card {font-size: 7rem; margin: 10px; }
+
+
+/* helper classes
+   ============================ */
+
+.show-on-focus { position: absolute; top: 0; left: 0; height: 1px; width: 1px; overflow: hidden; background-color: #eeeeee; }
+.show-on-focus:focus { height: auto; width: auto; }
+.hidden-accessible { position: absolute; clip: rect(1px,1px,1px,1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+.equal-height { display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+
+/* responsive
+   ============================ */
+
+@media screen and (--tablet-viewport) {
+      .wrapper {  }
+}
+
+@media screen and (--mobile-viewport) {
+
+}
